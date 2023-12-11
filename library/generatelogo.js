@@ -1,6 +1,6 @@
 //These are the three things I need to generate my logo: 
 //the user input, the blueprint that will create my shapes, and fs to write my .svg file
-//Normally I would "require" jf and { Circle, Square, Triangle }, but ESM prefers "import" and the
+//Normally I would "require" fs and { Circle, Square, Triangle }, but ESM prefers "import" and the
 // object destructuring syntax, so I have adjusted to this to enable my application to run 
 import fs from 'fs';
 import { Circle, Square, Triangle } from './shapes.js';

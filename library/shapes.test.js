@@ -20,7 +20,7 @@ describe('Shape Class', () => {
 
 // Three similar tests on the Circle, Square and Triangle subclasses that their render methods are 
 //functioning as expected. The tests create a new instance of the particular shape, passing some properties
-// to it and an it is asserted that the rendered circle will match the XML string which will be used
+// to it and it is asserted that the rendered circle will match the XML string which will be used
 // to write the logo file.    
 
 describe('Circle Class', () => {
